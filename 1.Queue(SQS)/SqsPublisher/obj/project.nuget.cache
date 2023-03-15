@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ewnS71iLX3iM7IYc4pJu1KI0SIBD1Wt96CbhzvIctFGO6+sVC1Y1xsYMUIBOZjWsS5Qm0Xp9f6v8mk5aqn9rgg==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\1.Queue(SQS)\\SqsPublisher\\SqsPublisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.18\\awssdk.core.3.7.105.18.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.sqs\\3.7.100.89\\awssdk.sqs.3.7.100.89.nupkg.sha512"
+  ],
+  "logs": []
+}

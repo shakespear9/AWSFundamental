@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "20/FBuXLUo/7NL1CN/f8cR/4Lpqor7GDxJUQVgrXfycJ+BtDEJKXF/DOJYXYqr0idFd2U+3vyvalDaLc7/5w6Q==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\1.Queue(SQS)\\Customers.Consumer\\Customers.Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.18\\awssdk.core.3.7.105.18.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.sqs\\3.7.100.89\\awssdk.sqs.3.7.100.89.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
