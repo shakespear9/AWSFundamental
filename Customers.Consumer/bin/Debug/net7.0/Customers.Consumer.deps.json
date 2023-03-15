@@ -1,0 +1,102 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Customers.Consumer/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.7.100.89",
+          "MediatR": "12.0.1"
+        },
+        "runtime": {
+          "Customers.Consumer.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.105.18": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.105.18"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.100.89": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.105.18"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.89"
+          }
+        }
+      },
+      "MediatR/12.0.1": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "Customers.Consumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.105.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RitnqWZ7PWW29emAGHcXNpMnNQaqtamBnPgDeiomp0ORJ2cSTSPxlAoYhM4ahTM6Z/CPGA2fph7EOT20pTqrzA==",
+      "path": "awssdk.core/3.7.105.18",
+      "hashPath": "awssdk.core.3.7.105.18.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.100.89": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cm/R0hzmlgZ0pu4BcEXPkqNgG//yqpH1iY1qnMFWmi/UF2DJ84ooyL0mJIps4FChaiqgvcZDGjh+O/Q3YGoZRg==",
+      "path": "awssdk.sqs/3.7.100.89",
+      "hashPath": "awssdk.sqs.3.7.100.89.nupkg.sha512"
+    },
+    "MediatR/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vfxplMielft+g5jxGO31xjjQpI6yqe4r2YGt0Q8x23phwbpJNmUQGY+cCNNFMKKViXRM67ajUlAiwirMeuJWTQ==",
+      "path": "mediatr/12.0.1",
+      "hashPath": "mediatr.12.0.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    }
+  }
+}

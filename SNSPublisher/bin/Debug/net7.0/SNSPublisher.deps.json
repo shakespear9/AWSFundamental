@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SNSPublisher/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SimpleNotificationService": "3.7.101.26"
+        },
+        "runtime": {
+          "SNSPublisher.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.105.19": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.105.19"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.101.26": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.105.19"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.26"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SNSPublisher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.105.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RHSJu4gmQMvqGdxcNVNWglueXGFma+d6n3MUvWsMieosLbWvFq3TzCkeNF0Zmf69iUxNTHTWv+zoYNsFygZk+g==",
+      "path": "awssdk.core/3.7.105.19",
+      "hashPath": "awssdk.core.3.7.105.19.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.7.101.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AKXTorgtsYnkJYpvgYR3/lFloxxIpJhtoqDwqR3KeCMcXpUtnyfFzMEXxyHPILsXpS4GFJ8U1oO81ylrUu3hxg==",
+      "path": "awssdk.simplenotificationservice/3.7.101.26",
+      "hashPath": "awssdk.simplenotificationservice.3.7.101.26.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gCV60viWG9pBaqMX8b4yU7y2BTxBBQHoZkYXSorJaiO96eIEvSuon2Ie1Vds7D5ijwwacvY2otdt8de4E9Ri5A==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\SNSPublisher\\SNSPublisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.19\\awssdk.core.3.7.105.19.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.101.26\\awssdk.simplenotificationservice.3.7.101.26.nupkg.sha512"
+  ],
+  "logs": []
+}
