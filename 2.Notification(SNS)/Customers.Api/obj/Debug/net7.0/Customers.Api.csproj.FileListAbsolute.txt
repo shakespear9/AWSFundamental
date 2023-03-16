@@ -63,3 +63,4 @@ D:\NetCore\AWSFundamental\2.Notification(SNS)\Customers.Api\obj\Debug\net7.0\ref
 D:\NetCore\AWSFundamental\2.Notification(SNS)\Customers.Api\obj\Debug\net7.0\Customers.Api.pdb
 D:\NetCore\AWSFundamental\2.Notification(SNS)\Customers.Api\obj\Debug\net7.0\Customers.Api.genruntimeconfig.cache
 D:\NetCore\AWSFundamental\2.Notification(SNS)\Customers.Api\obj\Debug\net7.0\ref\Customers.Api.dll
+D:\NetCore\AWSFundamental\2.Notification(SNS)\Customers.Api\bin\Debug\net7.0\AWSSDK.DynamoDBv2.dll

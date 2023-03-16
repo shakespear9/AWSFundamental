@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Customers.Api/1.0.0": {
         "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.102.5",
           "AWSSDK.SimpleNotificationService": "3.7.101.26",
           "Dapper": "2.0.123",
           "FluentValidation.AspNetCore": "11.0.1",
@@ -19,17 +20,28 @@
           "Customers.Api.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.105.19": {
+      "AWSSDK.Core/3.7.105.20": {
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.105.19"
+            "fileVersion": "3.7.105.20"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.102.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.105.20"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.102.5"
           }
         }
       },
       "AWSSDK.SimpleNotificationService/3.7.101.26": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.105.19"
+          "AWSSDK.Core": "3.7.105.20"
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {
@@ -311,12 +323,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.Core/3.7.105.19": {
+    "AWSSDK.Core/3.7.105.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RHSJu4gmQMvqGdxcNVNWglueXGFma+d6n3MUvWsMieosLbWvFq3TzCkeNF0Zmf69iUxNTHTWv+zoYNsFygZk+g==",
-      "path": "awssdk.core/3.7.105.19",
-      "hashPath": "awssdk.core.3.7.105.19.nupkg.sha512"
+      "sha512": "sha512-ZHuTxP1J8g91+YSV0YLzm5te5lG+zkiUH/+NDHFpLf1cBD6iw2kUo5AkYEVxfEur1OTdYJxEZ5jDuOBE4pubkg==",
+      "path": "awssdk.core/3.7.105.20",
+      "hashPath": "awssdk.core.3.7.105.20.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.102.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ada05rF3qC0ggH84sojb11YKVlMGlfEoOnvTCmftt90mUwevxw3o/cHJZBDYUkV0BAYIhcJT2a7nxVgEnPRhpw==",
+      "path": "awssdk.dynamodbv2/3.7.102.5",
+      "hashPath": "awssdk.dynamodbv2.3.7.102.5.nupkg.sha512"
     },
     "AWSSDK.SimpleNotificationService/3.7.101.26": {
       "type": "package",

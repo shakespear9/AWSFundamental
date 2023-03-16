@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.102.5, )"
+            },
             "AWSSDK.SimpleNotificationService": {
               "target": "Package",
               "version": "[3.7.101.26, )"

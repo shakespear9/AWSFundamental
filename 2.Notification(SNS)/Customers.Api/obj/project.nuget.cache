@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QnsIg/uiYp5XyGEV3x0ajnpeTYx+HOcW/aius+3qrASACCClxfnK/n24T5nYnWFrZH2c+ftUiCoVCaHdF1/PmQ==",
+  "dgSpecHash": "NqaFRIYu8nnhm8RF7U2r37t3pM4u8rZxnMBADxScXjzlWkX8TGGXHcWYmWu280fE/EcAYbmheXd4XI4MdUTb7w==",
   "success": true,
   "projectFilePath": "D:\\NetCore\\AWSFundamental\\2.Notification(SNS)\\Customers.Api\\Customers.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.19\\awssdk.core.3.7.105.19.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.20\\awssdk.core.3.7.105.20.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.102.5\\awssdk.dynamodbv2.3.7.102.5.nupkg.sha512",
     "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.101.26\\awssdk.simplenotificationservice.3.7.101.26.nupkg.sha512",
     "C:\\Users\\JAST46N\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\JAST46N\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
