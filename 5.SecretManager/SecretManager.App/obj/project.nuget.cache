@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XNlNPAkkNzi93c2+1lVZ9WnmuErGSPjQjPsyg+hoTUI+QP+75pbEIccsxyBV9HSDfb+4P6w6s/33JPPkAhUL1Q==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\5.SecretManager\\SecretManager.App\\SecretManager.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.20\\awssdk.core.3.7.105.20.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.secretsmanager\\3.7.102.3\\awssdk.secretsmanager.3.7.102.3.nupkg.sha512"
+  ],
+  "logs": []
+}
