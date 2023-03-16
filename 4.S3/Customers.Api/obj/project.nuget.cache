@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "/XWNiWJlFfdf1ciACDP+MbGpw4bIrR0qZpoY2fXG/Jw+Q25NZtXMAYA5bTPi4kTGuigkZTC6FtiFd34RwizI7Q==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\4.S3\\Customers.Api\\Customers.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.20\\awssdk.core.3.7.105.20.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.101.24\\awssdk.dynamodbv2.3.7.101.24.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.s3\\3.7.103.28\\awssdk.s3.3.7.103.28.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.1\\fluentvalidation.aspnetcore.11.0.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.1\\fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

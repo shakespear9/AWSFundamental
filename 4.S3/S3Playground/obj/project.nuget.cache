@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4IDKTjzjCD0Dz3RDVBI+pJuBH+YuswqGnaTuzEJs679ad+44tge8LKb2nxMn6PsI4mK76y2zeu9icXqno/rzA==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\4.S3\\S3Playground\\S3Playground.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.105.20\\awssdk.core.3.7.105.20.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.s3\\3.7.103.28\\awssdk.s3.3.7.103.28.nupkg.sha512"
+  ],
+  "logs": []
+}
