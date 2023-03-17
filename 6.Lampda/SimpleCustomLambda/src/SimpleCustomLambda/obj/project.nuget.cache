@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "L0MWaR83Hgjhoxl2bU5zmt7mhBDfLkB0bQ/SK9d9oocj65/QFLS9Y6Y9MrtUboF6vgiOMPb7mKN6KmV1OqVMAQ==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\6.Lampda\\SimpleCustomLambda\\src\\SimpleCustomLambda\\SimpleCustomLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.runtimesupport\\1.8.2\\amazon.lambda.runtimesupport.1.8.2.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\7.0.0\\microsoft.netcore.app.runtime.linux-x64.7.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\7.0.0\\microsoft.aspnetcore.app.runtime.linux-x64.7.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.0\\microsoft.netcore.app.crossgen2.win-x64.7.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.0\\microsoft.netcore.app.host.linux-x64.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

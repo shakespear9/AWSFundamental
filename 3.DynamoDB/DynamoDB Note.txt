@@ -1,0 +1,7 @@
+DynamoDB มี 
+Partition Key และ Sort Key 
+โดย Key ของแต่ละ record เกิดจากการ combine กันของ Partition Key และ Sort Key
+
+DynamoDB Partition Key นั้นสำคัญใช้สำหรับการ read, edit, create หากไม่ใช้ Partition Key ในการค้นหาจะมี cost เยอะมาก
+สมมติต้องการ Filter ข้อมูลโดยไม่ต้องใช้ PK ซึ่งวิธีการปกตินั้นมี cost เยอะมาก เพราะต้อง Scan ทุก Node ดังนั้นจึงต้องมีการใช้ GSI
+GSI เหมือนเป็นการ Duplicate Data เพื่อสร้าง table เดิมแต่เปลี่ยน pk และ sk เพื่อสามารถ Filter ได้ด้วย data ที่ไม่ใช่ pk ของ table หลัก

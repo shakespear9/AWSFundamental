@@ -1,0 +1,7 @@
+S3 คือ Service ของ AWS ไว้ใช้เก็บไฟล์ ซึ่งที่เก็บไฟล์นั้นเรียก Bucket และสามารถทำ virtual folder ได้ภายใน Bucket
+
+ชื่อของ Bucket ต้อง Global unique (ต้องไม่ซ้ำใครใน aws s3)
+
+file ที่ถูก upload เราสามารถเข้าถึงไฟล์นั้นได้ผ่าน URL ของไฟล์นั้น และยังสามารถตั้งเวลาการเข้าถึงของลิ้งได้ด้วย presigned URL
+
+InputStream ใช้สำหรับอัปโหลดไฟล์ผ่าน Stream Location อัพโหลดจาก Location ของ System ( เครื่องคอม ) ContentBody อัพโหลด PlaintText

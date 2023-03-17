@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BcFY0AdPUReoIIE1rfIaYjII4Wj35Lg3v89jyIoOZDOEYCDJ3t1hdKxPGem+CrT9bFbi0hSdVnm35CgK5oPl/Q==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\6.Lampda\\SimpleLambda\\src\\SimpleLambda\\SimpleLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.11\\microsoft.netcore.app.crossgen2.win-x64.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

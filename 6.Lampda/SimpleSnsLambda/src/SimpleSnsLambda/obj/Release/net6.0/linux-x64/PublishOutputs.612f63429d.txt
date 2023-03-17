@@ -1,0 +1,7 @@
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\SimpleSnsLambda.deps.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\SimpleSnsLambda.runtimeconfig.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\SimpleSnsLambda.pdb
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\Amazon.Lambda.SNSEvents.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleSnsLambda\src\SimpleSnsLambda\bin\Release\net6.0\publish\SimpleSnsLambda.dll

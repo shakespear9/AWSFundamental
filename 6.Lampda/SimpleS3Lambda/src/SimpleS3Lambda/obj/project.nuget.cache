@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KaaWybK27WV6mDGx4CDLxjj7715PsmV00ce6jtjIngRjzaNTx7X2FPTxSDusz8uxE5MVSfIF2Djug86uWZjokA==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\6.Lampda\\SimpleS3Lambda\\src\\SimpleS3Lambda\\SimpleS3Lambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.s3events\\3.0.0\\amazon.lambda.s3events.3.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.102\\awssdk.core.3.7.102.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.s3\\3.7.101.32\\awssdk.s3.3.7.101.32.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.11\\microsoft.netcore.app.crossgen2.win-x64.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

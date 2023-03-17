@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "diPGydwlJpONvx1IVyfIWHZapWOdNdtIQyzmZVzafIE=",
+  "Source": "SimpleWebAPILambda",
+  "BasePath": "_content/SimpleWebAPILambda",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

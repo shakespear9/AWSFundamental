@@ -1,0 +1,9 @@
+SNS คือตัวจัดการ Message(Topic) ในกรณีที่มีหลาย Queue ซึงในแต่ละ Queue นั้นสนใจ Message คนละประเภทกัน ซึ่งทำให้ Publisher นั้น Add Queue ไปที่ที่เดียว
+และ SNS เป็นตัวจัดการจัดส่ง Message ไปยังแต่ SQS ด้วยการทำงานแบบ Pub/Sub (Publish/Subscribe)
+
+Data Protection Policy มีไว้เพื่อ deny Message ที่เข้ามาด้วย Sensitive data เช่น API Key เพื่อป้องกันความปลอดภัย
+
+Enable raw message delivery เพื่อให้ sns ไม่ต้องส่ง SNS Event Type มาไปที่ Queue ส่งแค่ Queue Event มาเท่านั้น 
+หากต้องการ Publish SNS Message ไปยัง SQS ต้องทำการตั้ง Access Policy ของ SQS เพื่อให้สามารถรับ SNS Message ได้
+
+Setting Subscription filter คือการระบุว่า subscribe นั้นๆ เลือกที่จะรับ Message ที่มี Attribute ใดๆ บ้าง สามารถตั้งค่าได้ที่ Subscribe ใน SNS Topic

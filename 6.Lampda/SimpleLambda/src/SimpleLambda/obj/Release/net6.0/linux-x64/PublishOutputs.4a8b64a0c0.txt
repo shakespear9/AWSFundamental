@@ -1,0 +1,6 @@
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\SimpleLambda.deps.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\SimpleLambda.runtimeconfig.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\SimpleLambda.pdb
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleLambda\src\SimpleLambda\bin\Release\net6.0\publish\SimpleLambda.dll

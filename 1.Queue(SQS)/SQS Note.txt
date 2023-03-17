@@ -1,0 +1,23 @@
+Queue 
+
+Visibility timeout สามารถตั้งเวลาหน่วงการแสดงได้ ในกรณี Consumer ได้รับ Message ไปแล้วไม่ Delete . Message จะกลับมาที่ Queue
+
+Visibility timeout คือ ตั้งเวลาหน่วงหลังจากได้รับ message จาก Message Publisher ว่าให้ push ลง Queue หลังจากได้รับ message กี่วินาที
+
+Message retention period คือการกำหนดว่า Message นั้นจะถูกเก็บไว้นานแค่ไหนใน Queue
+
+Delivery Delay คือการตั้ง delay การส่งไปยัง consumer หลังจากที่ message ถูก push มายัง Queue
+
+Queue สามารถกำหนด Message Attribute ได้ เช่น ระบุ type ของ Message body เพื่อให้ Consumer สามารถนำไปใช้งานต่อได้ เช่น Service A ใช้งานแต่ Type A only
+
+Dead Letter Queue ใช้สำหรับเก็บ Message ที่ Consumer ไม่สามารถใช้งานได้ เพื่อที่ทำให้ไม่เกิด Loop การอ่าน Message เดิมที่ Consumer
+
+Message ที่ถูกเก็บที่ Dead Letter Queue จะมีคนมา revise และเขียน code รองรับ Message นี้หากเป็น case ที่จำเป็นและนำ Message กลับไปอยู่ใน Queue
+
+แต่หาก Message นั้นใน Dead Lettter Queue ไม่ได้ถูกใช้งานก็สำหรับลบออกจาก Queue ได้
+
+DLQ เป็น Temp Queue ที่ไว้เก็บ Message ที่ Consumer ไม่สามารถจัดการได้ โดยต้อง Setting ที่ Queue หลักให้ส่ง Message มายัง DLQ เมื่อเกิน Max Receives
+
+Maximum receives คือจำนวนครั้งที่ Queue หลักรับ Message A หากครบจำนวนครั้ง Message A นั้นจะถูกรับจนครบ Maximum receives Message A ถูกส่งไป DLQ
+
+DLQ Redrive คือการนำ Message จาก DLQ กลับไปใส่ใน Source Queue เพื่อนำไป Process ใหม่

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gV6aqHFz5NYutby3mCvp9Y2AawgSp9cGd6AuPYZQple+AL0d8UsKzG9yqsikhL6LhMQ8SQqmEFuCWbU2YIpU3g==",
+  "success": true,
+  "projectFilePath": "D:\\NetCore\\AWSFundamental\\6.Lampda\\SimpleDynamoDBLambda\\src\\SimpleDynamoDBLambda\\SimpleDynamoDBLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.dynamodbevents\\2.1.1\\amazon.lambda.dynamodbevents.2.1.1.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.core\\3.7.102\\awssdk.core.3.7.102.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.101.2\\awssdk.dynamodbv2.3.7.101.2.nupkg.sha512",
+    "C:\\Users\\JAST46N\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.11\\microsoft.netcore.app.crossgen2.win-x64.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

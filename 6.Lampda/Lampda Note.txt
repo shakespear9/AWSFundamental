@@ -1,0 +1,50 @@
+Lamda functions 
+เป็นฟังก์ชั่นที่สามารถรันได้โดยไม่ต้องมี server (serverless) สามารถเขียนโค้ดภาษาต่างๆลงใน Lampda ได้เช่น C#, js, GO, Ruby 
+และ invoke โดยการผูกกับ Trigger ที่เราผูกเอาไว้เช่น Trigger จากการ Insert data to dynamoDB 
+
+install Lambda CLI : 
+dotnet tool install -g Amazon.Lambda.Tools
+
+invoke Lambda CLI command : 
+dotnet lambda invoke-function SimpleLambda --payload '{""Hello"" : ""From the console""}'
+
+install Lambda Template : 
+dotnet new -i Amazon.Lambda.Templates
+
+deploy Lambda function by CLI : 
+dotnet lambda deploy-function SimpleLambda
+
+deploy serverless lambda by CLI: 
+dotnet lambda deploy-serverless SimpleHttpLambda
+ต้องมีการผูกกับ Bucket(Amazon S3)  ด้วย
+
+delete serverless lambda by CLI:
+dotnet lambda delete-serverless SimpleHttpLambda
+
+To Debug Lambda Locally :
+dotnet tool install -g Amazon.Lambda.TestTool-6.0
+หลังจากนั้น run 
+dotnet lamba-test-tool-6.0
+และทำ breakpoint ที่ Code แล้ว Attach Process ที่เป็น lambda-test เข้ามา แล้วลอง invoke lambda function
+หรือ
+สร้าง lauch Profile ของ Project ใหม่ให้ชี้ executable file ไป C:/Users/YOUR_USER/.dotnet/tools/dotnet-lambda-test-tool-6.0.exe
+และชี้ Working Directory ไป Lambda Http Project
+
+Lambda สามารถทำงานร่วมกับ Service อื่น ๆของ AWS ได้ เช่น SQS, SNS, S3 และผูก trigger ให้กับ event เช่น Lambda function A ทำงานก็ต่อเมื่อ
+มี Queue ถูก Add เข้ามาใน SQS 
+
+เราสามารถ hosting WebAPI ใน Lambda function ได้ด้วยการ add nuget Amazon.Lambda.AspNetCoreServer.Hosting
+และ เพิ่ม config 
+	<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+	 <AWSProjectType>Lambda</AWSProjectType>
+	 <!-- This property makes the build directory similar to a publish directory and helps the AWS .NET Lambda Mock Test Tool find project dependencies. -->
+	 <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	 <!-- Generate ready to run images during publishing to improve cold start time. -->
+	 <PublishReadyToRun>true</PublishReadyToRun>
+ใน csproj ของ project 
+และเพิ่มไฟล์ aws-lambda-tools.defaults.json 
+และแก้ไข function-handler เป็น ProjName
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
+
+AWS Lambda นั้นรองรับแค่ .NET VERSION ที่เป็น LTS (long term support) เท่านั้น แต่เราสามารถ custom runtime เองได้ด้วย
+Lambda custom runtime function

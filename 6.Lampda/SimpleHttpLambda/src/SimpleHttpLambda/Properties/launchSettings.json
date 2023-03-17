@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "SimpleHttpLambda": {
+      "commandName": "Project"
+    },
+    "Debug Http Lambda": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\JAST46N\\.dotnet\\tools\\dotnet-lambda-test-tool-6.0.exe",
+      "workingDirectory": "D:\\NetCore\\AWSFundamental\\6.Lampda\\SimpleHttpLambda\\src\\SimpleHttpLambda",
+      "nativeDebugging": true
+    }
+  }
+}

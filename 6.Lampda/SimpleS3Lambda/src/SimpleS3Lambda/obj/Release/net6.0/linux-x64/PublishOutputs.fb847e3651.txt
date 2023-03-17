@@ -1,0 +1,10 @@
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\SimpleS3Lambda.deps.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\SimpleS3Lambda.runtimeconfig.json
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\SimpleS3Lambda.pdb
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\Amazon.Lambda.S3Events.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\AWSSDK.Core.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\AWSSDK.S3.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\SixLabors.ImageSharp.dll
+D:\NetCore\AWSFundamental\6.Lampda\SimpleS3Lambda\src\SimpleS3Lambda\bin\Release\net6.0\publish\SimpleS3Lambda.dll
